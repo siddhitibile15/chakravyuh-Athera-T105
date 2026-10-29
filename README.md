@@ -27,7 +27,7 @@ Chakravyuh is a lightweight, responsive web application designed for engineering
    - **Confetti & One-Time XP**: Awards XP once per challenge in `localStorage` to prevent duplicate farming.
 
 3. **Circuit-Aware Learning Assistant**
-   - **Zero Black-Box AI**: 100% deterministic, rule-based expert engine running client-side.
+   - **Deterministic Circuit Engine**: 100% deterministic, rule-based expert engine running client-side.
    - **Contextual Inspection**: Scans the active circuit for empty workbenches, floating/disconnected pins, missing output probes, or truth table mismatches.
    - **Progressive Pedagogical Hints**: Explains *why* an output is 0 or 1 based on Boolean algebra without immediately giving away the solution.
    - **Quick Questions**: Clickable prompts like *"Why is my output 0?"*, *"Why is my output 1?"*, *"Give me a hint"*, and *"What are Universal Gates?"*.
@@ -111,10 +111,7 @@ npm run dev
 ```
 
 ### 3. Open in Browser
-Visit the local address displayed in your terminal:
-```
-http://localhost:5173
-```
+Visit the local address displayed in your terminal (typically `http://localhost:5174` or `http://localhost:5173`).
 
 *(To test the production build, run `npm run build` followed by `npm run preview`.)*
 
